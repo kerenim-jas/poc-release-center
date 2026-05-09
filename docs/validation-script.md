@@ -211,9 +211,9 @@ Print and use one per interview. After 5 RMs, patterns emerge.
 
 Aim for **5-7 Release Managers** across these segments:
 
-- 2-3 from JFrog ecosystem customers (Repo21, Allianz, etc.)
-- 1-2 from JFrog internal (Sahar, Idan Dolev, Yoram per Asaf's task list)
-- 1-2 from non-JFrog customers (cold outreach via PMM if available)
+- 2-3 from existing customers (named accounts known to the PM)
+- 1-2 internal (Release Managers inside the company shipping our own releases)
+- 1-2 from non-customer prospects (cold outreach via PMM if available)
 - Bonus: 1 DevOps Lead and 1 SRE who works adjacent to a Release Manager — to triangulate
 
-Avoid talking only to JFrog champions in the first batch — friendly bias will inflate signal.
+Avoid talking only to internal champions in the first batch — friendly bias will inflate signal.
