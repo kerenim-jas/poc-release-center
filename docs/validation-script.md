@@ -12,12 +12,12 @@ A non-leading interview script for validating the **Supported Releases Center** 
 - **Record audio with consent** ("Mind if I record so I can focus on what you're saying instead of taking notes?"). Use Otter, Zoom, Granola, etc.
 - **Have a notetaker** if possible — frees you to listen.
 - **Don't send the POC link in advance.** First reactions are gold.
-- **Have the POC open** in a tab you can share — and have a few release detail URLs bookmarked:
-  - Home — `<your-vercel-url>/`
-  - Integrity drift — `<your-vercel-url>/releases/repo21-payment-2-1-0`
-  - SLA expired but still running — `<your-vercel-url>/releases/xray-indexer-3-93-2`
-  - Malicious package — `<your-vercel-url>/releases/repo21-data-pipeline-4-2-1`
-  - Built but not running — `<your-vercel-url>/releases/xray-policy-engine-5-4-1`
+- **Have the POC open** in a tab you can share. **Access password:** `runtime-rm-2026`
+  - Home — [https://kerenim-jas.github.io/poc-release-center/](https://kerenim-jas.github.io/poc-release-center/)
+  - Integrity drift — [https://kerenim-jas.github.io/poc-release-center/releases/repo21-payment-2-1-0/](https://kerenim-jas.github.io/poc-release-center/releases/repo21-payment-2-1-0/)
+  - SLA expired but still running — [https://kerenim-jas.github.io/poc-release-center/releases/xray-indexer-3-93-2/](https://kerenim-jas.github.io/poc-release-center/releases/xray-indexer-3-93-2/)
+  - Malicious package — [https://kerenim-jas.github.io/poc-release-center/releases/repo21-data-pipeline-4-2-1/](https://kerenim-jas.github.io/poc-release-center/releases/repo21-data-pipeline-4-2-1/)
+  - Built but not running — [https://kerenim-jas.github.io/poc-release-center/releases/xray-policy-engine-5-4-1/](https://kerenim-jas.github.io/poc-release-center/releases/xray-policy-engine-5-4-1/)
 - **Print the hypotheses sheet** (bottom of this doc) to fill in after the call.
 
 ---
