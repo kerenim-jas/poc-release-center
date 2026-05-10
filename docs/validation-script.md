@@ -194,6 +194,8 @@ Print and use one per interview. After 5 RMs, patterns emerge.
 | H8 | Trust evidence (AppTrust panel) is valued, not noise | They look at it; reference it in scenarios | | |
 | H9 | Triggers / automations are something they'd configure | They mention notifications/alerts in workflow today | | |
 | H10 | Wiz as a runtime data source is acceptable (vs requiring JFrog sensor) | They don't push back on "via Wiz" tag | | |
+| H11 | A "release" in their world is usually a **bundle** (multi-resource Application Version), not a single Docker | Phase 2 Application-level rollup is justified |  |  |
+| H12 | They want runtime context overlaid on AppTrust surfaces (Apps list / Lifecycle / Blast Radius), not as a standalone tab | Validates Carmit's "kill the standalone tab" insight |  |  |
 
 ---
 
