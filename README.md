@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# poc-release-center — v0.1 (SUPERSEDED)
 
-## Getting Started
+> **Status: superseded.** This was the first iteration of the Supported Release Center concept, designed for an external Release Manager persona based on the JFrog Live Assessment design language.
+>
+> Following the calls with **Sahar Bracha** (May 10) and **Barak Haryati** (May 13), the persona, data model, and value framing all shifted significantly. The replacement POC is **[poc-supported-release-center](https://github.com/kerenim-jas/poc-supported-release-center)** — built around Barak's actual SSDLC dashboard and Ambarish's CVE×Service matrix as the source of truth.
+>
+> This repo is preserved as a historical artifact of v0.1 thinking. **Do not validate against this version with new participants.**
 
-First, run the development server:
+## Why this was superseded
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Persona was wrong.** The right primary personas are Sec Director (Barak), Release Coordinator (Ambarish), and Service Owner (per-Core lead). Not a generic "Release Manager."
+- **Data model was wrong.** Real model is Cores → Services → Service Versions → CVEs with SLA timer state, not flat Releases.
+- **Runtime tie-in was overstated.** Runtime is one data source feeding the SLA dashboard, not the headline value.
+- **Integrity drift was misplaced.** It belongs in the Wiz augmentation POC (JFrog → Wiz direction), not in the JFrog-internal SLA view.
+- **The actual product already exists internally.** Barak built ~70% of it as the SSDLC dashboard — the v0.2 POC productizes that pattern.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live (still up for reference)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[https://kerenim-jas.github.io/poc-release-center/](https://kerenim-jas.github.io/poc-release-center/) — password `runtime-rm-2026`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What replaced it
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[https://github.com/kerenim-jas/poc-supported-release-center](https://github.com/kerenim-jas/poc-supported-release-center) — see that repo's README for the new product framing.
